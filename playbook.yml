@@ -1,5 +1,2 @@
 ---
 - hosts: all
-- src: git+https://github.com/petri3/repo-epel.git
-  roles:
-    - petri3.repo-epel
