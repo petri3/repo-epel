@@ -1,4 +1,4 @@
 ---
 - hosts: all
   roles:
-    - geerlingguy.repo-epel
+    - petri3.repo-epel
