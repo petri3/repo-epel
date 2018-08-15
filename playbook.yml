@@ -1,7 +1,6 @@
 ---
 - hosts: all
   become: yes
-  become_method: su
   tasks:
     - name: Install system packages
       yum: pkg={{ item }} state=latest
