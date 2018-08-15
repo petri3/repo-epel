@@ -2,6 +2,6 @@
 - hosts: all
   tasks:
     - name: Install system packages
-      yum: pkg={{ item }} state=latest install_recommends=no
+      yum: pkg={{ item }} state=latest
       with_items:
         - epel-release
